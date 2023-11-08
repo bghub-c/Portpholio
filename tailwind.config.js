@@ -35,11 +35,17 @@ export default {
       fb:"#3B5998",
       watspp:"#25D366",
       lnkin:"#0077B5",
+      html:"#F48051",
+      css:"#32A9DC",
+      bootstrap:"#563D7C",
+      react:"#16D8FF",
+      tailwind:"#44a9b3",
+      js:"#FFCA29",
     },
     dropShadow:{
         "text-sm":"1px 1px 0px rgba(0,0,0.90)",
         "text-md":"1px 2px 0px rgba(0,0,0.90)",
-        "text-lg":"1px 4px 0px rgba(0,0,0.90)",
+        "text-lg":"1px 4px 0px rgba(10,10,10,0.90)",
     },
     container:{
       center:true,
