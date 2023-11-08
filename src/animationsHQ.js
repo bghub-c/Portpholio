@@ -17,3 +17,13 @@ document.querySelector('a').addEventListener('click', function (e) {
       shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
     });
   }
+  
+  let shadow = document.querySelector("#shadow");
+const mouse_shadow = function(event) {
+  shadow.style.top = event.pageY + 'px';
+  shadow.style.left = event.pageX + 'px';
+}
+
+document.querySelector("body").onload = function() {
+  this.addEventListener("mousemove", mouse_shadow)
+}

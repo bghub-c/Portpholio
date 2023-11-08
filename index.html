@@ -22,19 +22,23 @@
     <title>Bportpholio</title>
   </head>
   <body
-    class="bg-bbkg scroll-smooth h-screen w-screen relative selection:bg-accent text-base selection:text-bbkg"
+    class="bg-black scroll-smooth subpixel-antialiased h-screen w-screen relative selection:bg-bbkg text-base selection:text-bkg"
   >
+  <div id="shadow" class="drop-shadow-2xl"></div>
     <nav
-      class="flex flex-row justify-between smartphone:justify-center items-center m-3 top-0 z-10 shadow-2xl rounded-3xl pr-4 backdrop-brightness-50 backdrop-blur-sm animate__animated animate__fadeInDown animate__slow"
+      class="flex flex-row justify-between smartphone:justify-center items-center m-3 z-10 
+      drop-shadow-2xl rounded-3xl pr-4 backdrop-brightness-200 backdrop-blur-lg
+       animate__animated animate__fadeInDown animate__slow"
     >
-      <div class="text-6xl smartphone:text-lg  pl-10 text-white">
-        BDev <span class="text-accentlt text-3xl smartphone:text-sm">Portfolio</span>
+    
+      <div class="text-6xl smartphone:text-3xl  pl-10 text-white">
+        BDev <span class="text-bbkg text-3xl smartphone:text-2x">Portfolio</span>
       </div>
-      <ul class="flex text-white text-lg smartphone:hidden drop-shadow-lg">
+      <ul class="flex text-white text-lg tablet:text-sm laptop:text-lg smartphone:hidden drop-shadow-lg">
         <li class="py-7 px-3">
           <a
             href="#about"
-            class="hover:text-accentlt transition duration-500 tracking-widest"
+            class="hover:font-semibold transition duration-500 tracking-widest"
             >Home</a
           >
         </li>
@@ -42,81 +46,80 @@
         <li class="py-7 px-3">
           <a
             href="#about"
-            class="hover:text-accentlt transition duration-500 tracking-widest"
+            class="hover:font-semibold transition duration-500 tracking-widest"
             >About</a
           >
         </li>
         <li class="py-7 px-3">
           <a
             href="#"
-            class="hover:text-accentlt transition duration-500 tracking-widest"
+            class="hover:font-semibold transition duration-500 tracking-widest"
             >Projects</a
           >
         </li>
         <li class="py-7 px-3">
           <a
             href="/"
-            class="hover:text-accentlt transition duration-500 tracking-widest"
+            class="hover:font-semibold transition duration-500 tracking-widest"
             >Experience</a
           >
         </li>
         <li class="py-7 px-3">
           <a
             href="/"
-            class="hover:text-accentlt underline-offset-4 transition ease-in-out duration-500 tracking-widest"
+            class="hover:font-semibold underline-offset-4 transition ease-in-out duration-500 tracking-widest"
             >Contact Me</a
           >
         </li>
       </ul>
     </nav>
-    <div class="scroll-smooth parallax-wrap h-screen">
-      <span value="4" class="hidden parallax-wrapspan"></span>
-      <span value="4" class="hidden parallax-wrapspan"></span>
-      <div id="maincontainer" class="mx-14 smartphone:mx-1">
+    <div class="scroll-smooth parallax-wrap">
+      <span value="4" class=" parallax-wrapspan "></span>
+      <div id="maincontainer" class=" mx-14 smartphone:mx-1">
         <div id="con1" class="flex justify-between relative">
           <div
             id="left"
-            class="p-10 m-4 text-6xl w-1/3 smartphone:w-full text-white rounded-2xl shadow-2xl backdrop-brightness-75 backdrop-blur-sm animate__animated animate__fadeIn animate__slower"
+            class="border p-10 m-4 text-6xl w-1/3 smartphone:w-full text-white rounded-2xl shadow-2xl backdrop-brightness-200 backdrop-blur-lg animate__animated animate__fadeIn animate__slower"
           >
             <div class="my-4">
               Hello,<br />
               I'm Mohd Bilal a passionate
             </div>
-            <span id="element" class="my-4 text-accentlt"></span>
+            <span id="element" class="my-4 text-bbkg"></span>
           </div>
           <div
             id="right"
-            class="smartphone:hidden flex justify-center w-2/3 p-10 m-4 text-6xl text-white rounded-2xl shadow-2xl backdrop-brightness-75 backdrop-blur-sm animate__animated animate__fadeIn animate__slower"
+            class="smartphone:hidden flex justify-center w-2/3 p-10 m-4 text-6xl bg-white text-white rounded-2xl shadow-2xl backdrop-brightness-200 backdrop-blur-lg animate__animated animate__fadeIn animate__slower"
           >
-            <img src="./ig/developer.png" loading="eager" alt="">
+            <img src="./ig/developer.png" loading="eager" alt="" class="">
           </div>
         </div>
         <div
           id="cont2"
-          class="p-4 bg-bkg backdrop-blur-lg rounded-2xl mx-4 grid grid-cols-3 text-white z-50"
+          class="hidden rounded-2xl mx-4 grid grid-cols-3 text-white z-50"
         >
           <div
             id="about"
-            class="divu flex flex-col z-12 mb-4 p-4 col-span-3 rounded-2xl backdrop-brightness-50 transition ease-in-out delay-75"
+            class="divu flex flex-col z-12 mb-4 p-4 col-span-3 rounded-2xl backdrop-blur-lg backdrop-brightness-200 transition ease-in-out delay-75"
           >
             <span class="text-5xl tracking-wider"
-              ><span class="text-accent text-7xl">A</span>bout</span
+              ><span class="text-bbkg text-7xl">A</span>bout</span
             >
             <div class="text-2xl mt-2 select-none tracking-wide">
               Well, here I am, a third-year B.Tech student deeply passionate
               about web development, I embody a genuine enthusiasm for crafting
               exceptional digital experiences. You can call me an enthusiast
               workaholic,
-              <span class="text-accentlt tracking-widest"
+              <span class="text-bbkg tracking-widest"
                 >or maybe just a web wizard in the making.
               </span>
               With a relentless passion for coding and creating, I'm on a
               mission to keep ethical standards in check while sprinkling a dash
-              of creativity into every project. <br />
+              of creativity into every project.
               I'm all about delivering results that make your jaw drop and your
               users say
-              <span class="text-accentlt tracking-widest">
-                <span class="text-accentlt tracking-widest text-bold"
+              <span class="text-bbkg tracking-widest">
+                <span class="text-bbkg tracking-widest text-bold"
                   >'Wow.'</span
                 >
                 So, if you want a web developer who's a little too excited about
@@ -129,12 +132,12 @@
             class="divu flex flex-col z-12 p-4 rounded-2xl backdrop-brightness-50 transition ease-in-out delay-75"
           >
             <span class="text-5xl tracking-wider"
-              ><span class="text-accent text-7xl">S</span>kills</span
+              ><span class="text-bbkg text-7xl">S</span>kills</span
             >
             <div class="text-2xl mt-2 flex">
               <ul class="flex">
                 <li
-                  class="hover:text-accent transition-colors p-3 hover:-translate-y-4 transition-all duration-500"
+                  class="hover:text-bbkg transition-colors p-3 hover:-translate-y-4 transition-all duration-500"
                 >
                   <svg
                     fill="currentColor"
@@ -164,7 +167,7 @@
                   </svg>
                 </li>
                 <li
-                  class="hover:text-accent transition-colors p-3 hover:-translate-y-4 transition-all duration-500"
+                  class="hover:text-bbkg transition-colors p-3 hover:-translate-y-4 transition-all duration-500"
                 >
                   <svg
                     fill="currentColor"
@@ -194,7 +197,7 @@
                   </svg>
                 </li>
                 <li
-                  class="hover:text-accent transition-colors p-3 hover:-translate-y-4 transition-all duration-500"
+                  class="hover:text-bbkg transition-colors p-3 hover:-translate-y-4 transition-all duration-500"
                 >
                   <svg
                     fill="currentColor"
@@ -218,7 +221,7 @@
                   </svg>
                 </li>
                 <li
-                  class="hover:text-accent transition-colors p-3 hover:-translate-y-4 transition-all duration-500"
+                  class="hover:text-bbkg transition-colors p-3 hover:-translate-y-4 transition-all duration-500"
                 >
                   <svg
                     fill="currentColor"
@@ -243,7 +246,7 @@
                   </svg>
                 </li>
                 <li
-                  class="hover:text-accent transition-colors p-3 pt-6 hover:-translate-y-4 transition-all duration-500"
+                  class="hover:text-bbkg transition-colors p-3 pt-6 hover:-translate-y-4 transition-all duration-500"
                 >
                   <svg
                     fill="currentColor"
@@ -267,7 +270,7 @@
                   </svg>
                 </li>
                 <li
-                  class="hover:text-accent transition-colors p-3 hover:-translate-y-4 transition-all duration-500"
+                  class="hover:text-bbkg transition-colors p-3 hover:-translate-y-4 transition-all duration-500"
                 >
                   <svg
                     fill="currentColor"
@@ -300,7 +303,7 @@
             class="divu transition-all flex flex-col z-12 m-4 p-4 col-span-2 rounded-2xl backdrop-brightness-50"
           >
             <span class="text-5xl tracking-wider"
-              ><span class="text-accent text-7xl">C</span>ontact</span
+              ><span class="text-bbkg text-7xl">C</span>ontact</span
             >
           </div>
           <div
@@ -308,7 +311,7 @@
             class="divu transition-all flex flex-col z-12 m-4 p-4 col-span-2 rounded-2xl backdrop-brightness-50"
           >
             <span class="text-5xl tracking-wider"
-              ><span class="text-accent text-7xl">P</span>rojects</span
+              ><span class="text-bbkg text-7xl">P</span>rojects</span
             >
             <div class="card" style="width: 18rem">
               <img src="..." class="card-img-top" alt="..." />
@@ -331,25 +334,6 @@
         strings: [
           "<i>FRONTEND</i> web developer. ^3000",
           "&amp; Web designer.",
-        ],
-        typeSpeed: 80,
-        loop: true,
-        cursorChar: "_",
-        backSpeed: 60,
-        shuffle: true,
-        backDelay: 1000,
-      });
-    </script>
-    <script>
-      var typed = new Typed("#abt", {
-        strings: [
-          "<i>HTML</i> ^3000",
-          "<i>CSS</i> ^3000",
-          "<i>TAILWIND</i> ^3000",
-          "<i>BOOTSTRAP</i>",
-          " <i>JAVASCRIPT</i> ^3000",
-          "<i>REACT</i> ^3000",
-          "&amp; a bag of tricks you wouldn't believe.",
         ],
         typeSpeed: 80,
         loop: true,

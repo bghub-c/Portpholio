@@ -15,7 +15,7 @@ export default {
         'xsmphone':"425px",
         'smartphone':{'max': '720px'},
         // => @media (max-width: 480px)
-        'tablet': '768px',
+        'tablet':{'max': '768px'},
         // => @media (min-width: 640px) 
   
         'laptop': '1024px',
