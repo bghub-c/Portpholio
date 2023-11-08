@@ -25,8 +25,8 @@ body{
 a, .divu {
   text-decoration: none;
   display: inline-block;
-  transition: background-color 0.3s;
-  animation-duration: 0.3s;
+  transition: background-color 0.4s;
+  animation-duration: 0.4s;
   animation-name: clickAnimation;
   position: relative; 
 }
