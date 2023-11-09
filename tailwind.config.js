@@ -18,7 +18,7 @@ export default {
         'tablet':{'max': '768px'},
         // => @media (min-width: 640px) 
   
-        'laptop': '1024px',
+        'laptop': {'max': '1680px'},
         // => @media (min-width: 1024px) 
   
         'desktop': '1280px',
