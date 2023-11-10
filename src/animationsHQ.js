@@ -27,3 +27,21 @@ const mouse_shadow = function(event) {
 document.querySelector("body").onload = function() {
   this.addEventListener("mousemove", mouse_shadow)
 }
+
+myID = document.getElementById("cont2");
+var myScrollFunc = function () {
+    var y = window.scrollY;
+    console.log(y);
+    if (y >= 330) {
+        myID.classList.remove("opacity-0");
+        myID.classList.add("opacity-100");
+        myID.classList.add("animate__bounceInUp");
+        
+    } 
+    else{ 
+      myID.classList.remove("opacity-100");
+      myID.classList.add("opacity-0");
+    }
+};
+
+window.addEventListener("scroll", myScrollFunc);
