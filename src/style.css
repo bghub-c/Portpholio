@@ -19,11 +19,8 @@ body{
 :root {
   --animate-duration: 0.3s;
 }
-.ml{
-  margin-left: 32.5%;
-}
 #left{
-  height: 588px;
+  height:80vh;
 }
 .a, .divu {
   text-decoration: none;
