@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./src/style.css" />
     <title>Bportpholio</title>
   </head>
-            
+
   <body
     class="flex flex-col bg-black scroll-smooth subpixel-antialiased h-screen w-screen relative selection:bg-bbkg text-base selection:text-bkg"
   >
@@ -29,7 +29,7 @@
     <nav
       class="w-1/2 mt-4 place-self-center flex flex-row justify-between smartphone:justify-center items-center mx-3 z-10 rounded-3xl pr-4 pl-6 backdrop-brightness-200 backdrop-blur-3xl border border-bbkg animate__animated animate__fadeInDown animate__slow"
     >
-      <div class="text-6xl smartphone:text-3xl  text-white">
+      <div class="text-6xl smartphone:text-3xl text-white">
         BDev
         <span class="text-bbkg text-3xl smartphone:text-2x">Portfolio</span>
       </div>
@@ -93,12 +93,36 @@
             id="right"
             class="smartphone:hidden flex justify-center w-2/3 p-10 my-4 rounded-2xl shadow-2xl border border-bbkg backdrop-brightness-200 backdrop-blur-xl animate__animated animate__fadeIn animate__slower"
           >
-            <img
-              src="./ig/developer.png"
-              loading="eager"
-              alt=""
-              class="shadow-2xl"
-            />
+            <svg
+              id="sw-js-blob-svg"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+              version="1.1"
+            >
+              <defs>
+                <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                  <stop
+                    id="stop1"
+                    stop-color="rgba(50, 169, 220, 1)"
+                    offset="0%"
+                  ></stop>
+                  <stop
+                    id="stop2"
+                    stop-color="rgba(90.464, 31, 251, 0.91)"
+                    offset="100%"
+                  ></stop>
+                </linearGradient>
+              </defs>
+              <path
+                fill="url(#sw-gradient)"
+                d="M27.5,-32.7C34.6,-26.8,38.7,-17.2,39.6,-7.7C40.5,1.9,38.2,11.3,33.1,18.3C28.1,25.3,20.3,29.8,11.6,34C2.8,38.2,-6.9,41.9,-13.4,38.7C-19.8,35.5,-23,25.3,-27.2,16.5C-31.4,7.6,-36.6,0.1,-35.4,-6.2C-34.2,-12.4,-26.6,-17.5,-19.6,-23.4C-12.6,-29.3,-6.3,-36,1.9,-38.3C10.2,-40.6,20.4,-38.5,27.5,-32.7Z"
+                width="100%"
+                height="100%"
+                transform="translate(50 50)"
+                stroke-width="0"
+                style="transition: all 0.3s ease 0s"
+              ></path>
+            </svg>
           </div>
         </div>
         <div
@@ -107,7 +131,7 @@
         >
           <div
             id="about"
-            class="flex flex-col z-12  mb-4 p-4 col-span-3 rounded-2xl backdrop-blur-3xl backdrop-brightness-200 border border-bbkg transition ease-in-out delay-75"
+            class="flex flex-col z-12 mb-4 p-4 col-span-3 rounded-2xl backdrop-blur-3xl backdrop-brightness-200 border border-bbkg transition ease-in-out delay-75"
           >
             <span class="text-5xl tracking-wider"
               ><span class="text-bbkg text-7xl">A</span>bout</span
@@ -327,7 +351,8 @@
                   >
                     <path
                       d="M216,26H40A14,14,0,0,0,26,40V216a14,14,0,0,0,14,14H216a14,14,0,0,0,14-14V40A14,14,0,0,0,216,26Zm2,190a2,2,0,0,1-2,2H40a2,2,0,0,1-2-2V40a2,2,0,0,1,2-2H216a2,2,0,0,1,2,2ZM94,112v64a6,6,0,0,1-12,0V112a6,6,0,0,1,12,0Zm88,28v36a6,6,0,0,1-12,0V140a22,22,0,0,0-44,0v36a6,6,0,0,1-12,0V112a6,6,0,0,1,12,0v2.11A34,34,0,0,1,182,140ZM98,84A10,10,0,1,1,88,74,10,10,0,0,1,98,84Z"
-                    ></path></svg></a>
+                    ></path></svg
+                ></a>
                 <a
                   href="https://instagram.com/mohd.bilal__?igshid=MzRlODBiNWFlZA=="
                   target="_blank"
@@ -341,7 +366,8 @@
                   >
                     <path
                       d="M128,82a46,46,0,1,0,46,46A46.06,46.06,0,0,0,128,82Zm0,80a34,34,0,1,1,34-34A34,34,0,0,1,128,162ZM176,26H80A54.06,54.06,0,0,0,26,80v96a54.06,54.06,0,0,0,54,54h96a54.06,54.06,0,0,0,54-54V80A54.06,54.06,0,0,0,176,26Zm42,150a42,42,0,0,1-42,42H80a42,42,0,0,1-42-42V80A42,42,0,0,1,80,38h96a42,42,0,0,1,42,42ZM190,76a10,10,0,1,1-10-10A10,10,0,0,1,190,76Z"
-                    ></path></svg></a>
+                    ></path></svg
+                ></a>
                 <a
                   href="#"
                   target="_blank"
@@ -355,7 +381,8 @@
                   >
                     <path
                       d="M128,26A102,102,0,1,0,230,128,102.12,102.12,0,0,0,128,26Zm6,191.8V150h26a6,6,0,0,0,0-12H134V112a18,18,0,0,1,18-18h16a6,6,0,0,0,0-12H152a30,30,0,0,0-30,30v26H96a6,6,0,0,0,0,12h26v67.8a90,90,0,1,1,12,0Z"
-                    ></path></svg></a>
+                    ></path></svg
+                ></a>
                 <a
                   href="#"
                   target="_blank"
@@ -377,13 +404,15 @@
           </div>
           <div
             id="conform"
-            class="divu flex flex-col p-4 rounded-2xl backdrop-blur-3xl backdrop-brightness-200 transition ease-in-out delay-75">
+            class="divu flex flex-col p-4 rounded-2xl backdrop-blur-3xl backdrop-brightness-200 transition ease-in-out delay-75"
+          >
             <span class="text-2xl tracking-wider">
-              <span class="text-bbkg text-7xl">OR</span> 
-              <br/>
-              Leave your details here for contact</span>
-              <label for="my_modal_7" class="btn">
-                <svg
+              <span class="text-bbkg text-7xl">OR</span>
+              <br />
+              Leave your details here for contact</span
+            >
+            <label for="my_modal_7" class="btn">
+              <svg
                 fill="currentColor"
                 width="30px"
                 height="30px"
@@ -391,7 +420,8 @@
                 version="1.1"
                 xml:space="preserve"
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink">
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
                 <g id="SVGRepo_bgCarrier" stroke-width="1"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
@@ -441,9 +471,9 @@
                   <g id="_x30_3_women"></g>
                   <g id="_x30_2_writing"></g>
                   <g id="_x30_1_chatting"></g>
-                </g>
-              </svg></label>
-              <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+                </g></svg
+            ></label>
+            <input type="checkbox" id="my_modal_7" class="modal-toggle" />
           </div>
           <div
             id="projects"
@@ -454,113 +484,608 @@
               class="text-bbkg text-7xl border-b border-spacing-2 border-bbkg mb-4"
               >P<span id="rw" class="text-5xl tracking-wider text-white mb-4"
                 >rojects</span
-              ></span>
-              <div class="collapse collapse-arrow m-2 bg-black  mt-7">
-                   <input type="radio" name="my-accordion-2" checked="checked" /> 
-                     <div class="collapse-title">
-                      <span
-                      class="text-bbkg text-2xl font-bold mr-1"
-                      >1. <span  class="text-xl tracking-wider font-thin text-white"
-                        >URL Shortener</span
-                      ></span>
-                     </div>
-                   <div class="collapse-content"> 
-                    <div class="card card-side  shadow-xl backdrop-blur-3xl backdrop-brightness-200 ">
-                      <figure class="mx-3"><img src="./ig/urlshortener.gif" class="rounded-2xl" alt="Landing page"/></figure>
-                      <div class="card-body">
-                        <h2 class="card-title text-bbkg text-2xl">URL Shortener</h2>
-                        <p>Click the button to watch on Jetflix app.</p>
-                        <div class="card-actions justify-end">
-                          <button class=" bg-bbkg p-4 text-white rounded-full hover:bg-black hover:border hover:font-bold  border-bbkg hover:text-bbkg transition-all">
-                            Github
-                          </button>
-                        </div>
-                      </div>
+              ></span
+            >
+            <div class="collapse collapse-arrow m-2 bg-black mt-7">
+              <input type="radio" name="my-accordion-2" checked="checked" />
+              <div class="collapse-title">
+                <span class="text-bbkg text-2xl font-bold mr-1"
+                  >1.
+                  <span class="text-xl tracking-wider font-thin text-white"
+                    >URL Shortener</span
+                  ></span
+                >
+              </div>
+              <div class="collapse-content">
+                <div
+                  class="card card-side shadow-xl backdrop-blur-3xl backdrop-brightness-200"
+                >
+                  <figure class="mx-3">
+                    <img
+                      src="./ig/urlshortener.gif"
+                      class="rounded-2xl"
+                      alt="Landing page"
+                    />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title text-bbkg text-2xl">URL Shortener</h2>
+                    <p>Click the button to watch on Jetflix app.</p>
+                    <div class="card-actions justify-end">
+                      <button
+                        class="bg-bbkg p-4 text-white rounded-full hover:bg-black hover:border hover:font-bold border-bbkg hover:text-bbkg transition-all"
+                      >
+                        Github
+                      </button>
                     </div>
                   </div>
+                </div>
               </div>
-              <div class="collapse collapse-arrow m-2 bg-black ">
-                <input type="radio" name="my-accordion-2" /> 
-                <div class="collapse-title">
-                  <span
-                  class="text-bbkg text-2xl font-bold mr-1"
-                  >2. <span  class="text-xl tracking-wider font-thin text-white"
+            </div>
+            <div class="collapse collapse-arrow m-2 bg-black">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title">
+                <span class="text-bbkg text-2xl font-bold mr-1"
+                  >2.
+                  <span class="text-xl tracking-wider font-thin text-white"
                     >Landing Page</span
-                  ></span>
-                </div>
-                <div class="collapse-content"> 
-                 <div class="card card-side  shadow-xl backdrop-blur-3xl backdrop-brightness-200 ">
-                      <figure class="mx-3"><img src="./ig/Screen Recording (11-Nov-23 9-06-08 PM).gif" class="rounded-2xl" alt="Landing page"/></figure>
-                      <div class="card-body">
-                        <h2 class="card-title text-bbkg text-2xl">Parallax Landing Page</h2>
-                        <p>Click the button to watch on Jetflix app.</p>
-                        <div class="card-actions justify-end">
-                          <button class=" bg-bbkg p-4 text-white rounded-full hover:bg-black hover:border hover:font-bold  border-bbkg hover:text-bbkg transition-all">
-                            Github
-                          </button>
-                        </div>
-                      </div>
+                  ></span
+                >
+              </div>
+              <div class="collapse-content">
+                <div
+                  class="card card-side shadow-xl backdrop-blur-3xl backdrop-brightness-200"
+                >
+                  <figure class="mx-3">
+                    <img
+                      src="./ig/Screen Recording (11-Nov-23 9-06-08 PM).gif"
+                      class="rounded-2xl"
+                      alt="Landing page"
+                    />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title text-bbkg text-2xl">
+                      Parallax Landing Page
+                    </h2>
+                    <p>Click the button to watch on Jetflix app.</p>
+                    <div class="card-actions justify-end">
+                      <button
+                        class="bg-bbkg p-4 text-white rounded-full hover:bg-black hover:border hover:font-bold border-bbkg hover:text-bbkg transition-all"
+                      >
+                        Github
+                      </button>
                     </div>
+                  </div>
                 </div>
               </div>
-              <div class="collapse collapse-arrow m-2 bg-black ">
-                <input type="radio" name="my-accordion-2" /> 
-                <div class="collapse-title">
-                  <span
-                  class="text-bbkg text-2xl font-bold mr-1"
-                  >3. <span  class="text-xl tracking-wider font-thin text-white"
+            </div>
+            <div class="collapse collapse-arrow m-2 bg-black">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title">
+                <span class="text-bbkg text-2xl font-bold mr-1"
+                  >3.
+                  <span class="text-xl tracking-wider font-thin text-white"
                     >Music Player</span
-                  ></span>
-                </div>
-                <div class="collapse-content"> 
-                 <div class="card card-side  shadow-xl backdrop-blur-3xl backdrop-brightness-200 ">
-                      <figure class="mx-3"><img src="./ig/Screen Recording (11-Nov-23 9-06-08 PM).gif" class="rounded-2xl" alt="Landing page"/></figure>
-                      <div class="card-body">
-                        <h2 class="card-title text-bbkg text-2xl">Parallax Landing Page</h2>
-                        <p>Click the button to watch on Jetflix app.</p>
-                        <div class="card-actions justify-end">
-                          <button class=" bg-bbkg p-4 text-white rounded-full hover:bg-black hover:border hover:font-bold  border-bbkg hover:text-bbkg transition-all">
-                            Github
-                          </button>
-                        </div>
-                      </div>
+                  ></span
+                >
+              </div>
+              <div class="collapse-content">
+                <div
+                  class="card card-side shadow-xl backdrop-blur-3xl backdrop-brightness-200"
+                >
+                  <figure class="mx-3">
+                    <img
+                      src="./ig/Screen Recording (11-Nov-23 9-06-08 PM).gif"
+                      class="rounded-2xl"
+                      alt="Landing page"
+                    />
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title text-bbkg text-2xl">
+                      Parallax Landing Page
+                    </h2>
+                    <p>Click the button to watch on Jetflix app.</p>
+                    <div class="card-actions justify-end">
+                      <button
+                        class="bg-bbkg p-4 text-white rounded-full hover:bg-black hover:border hover:font-bold border-bbkg hover:text-bbkg transition-all"
+                      >
+                        Github
+                      </button>
                     </div>
+                  </div>
                 </div>
               </div>
+            </div>
           </div>
         </div>
-        <footer class="text-white body-font backdrop-brightness-200 backdrop-blur-3xl rounded-2xl">
-          <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-            <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
-              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-51.2 -51.2 614.40 614.40" xml:space="preserve" width="56px" height="56px" fill="#000000" stroke="#000000" stroke-width="0.00512" transform="rotate(0)">
+        <footer
+          class="text-white body-font backdrop-brightness-200 backdrop-blur-3xl rounded-2xl"
+        >
+          <div
+            class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+          >
+            <a
+              class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+            >
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="-51.2 -51.2 614.40 614.40"
+                xml:space="preserve"
+                width="56px"
+                height="56px"
+                fill="#000000"
+                stroke="#000000"
+                stroke-width="0.00512"
+                transform="rotate(0)"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
 
-                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
-                
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-                
-                <g id="SVGRepo_iconCarrier"> <circle style="fill:#8451fb;" cx="256" cy="256" r="256"/> <ellipse style="fill:#6d36ec;" cx="256" cy="421.646" rx="182.284" ry="14.371"/> <path style="fill:#666666;" d="M65.982,67.223h380.037c12.486,0,22.702,10.216,22.702,22.702v234.107H43.282V89.924 c0-12.486,10.216-22.702,22.702-22.702H65.982z"/> <g> <path style="fill:#FFFFFF;" d="M58.694,308.617h394.609V89.924c0-3.979-3.309-7.288-7.285-7.288H65.982 c-3.977,0-7.285,3.309-7.285,7.288v218.693H58.694z"/> <path style="fill:#FFFFFF;" d="M468.718,324.031v24.827c0,12.488-11.26,22.702-25.024,22.702H68.307 c-13.764,0-25.024-10.214-25.024-22.702v-24.827H468.72H468.718z"/> </g> <circle style="fill:#B6B6B8;" cx="256" cy="346.803" r="7.816"/> <path style="fill:#C2C2C4;" d="M305.066,407.273l36.095,11.566H170.836l29.123-11.566v-35.713h105.105v35.713H305.066z"/> <path style="fill:#ECF0F1;" d="M199.961,407.273h105.106l36.095,11.566v4.98h-85.16h-85.164v-4.98L199.961,407.273z"/> <path style="fill:#919191;" d="M199.961,371.559h105.106v35.713L199.961,371.559z"/> <rect x="75.849" y="97.5" style="fill:#20D0C2;" width="40.742" height="7.016"/> <rect x="121.303" y="97.5" style="fill:#FF5B62;" width="72.269" height="7.016"/> <g> <rect x="197.055" y="97.5" style="fill:#8451fb;" width="61.53" height="7.016"/> <rect x="118.648" y="126.363" style="fill:#8451fb;" width="21.616" height="7.016"/> </g> <rect x="142.761" y="126.363" style="fill:#FF5B62;" width="38.345" height="7.016"/> <g> <rect x="182.953" y="126.363" style="fill:#20D0C2;" width="32.642" height="7.016"/> <rect x="75.592" y="138.689" style="fill:#20D0C2;" width="37.976" height="7.016"/> </g> <rect x="117.95" y="138.689" style="fill:#8451fb;" width="67.348" height="7.016"/> <rect x="116.133" y="153.42" style="fill:#FF5B62;" width="37.976" height="7.016"/> <rect x="158.49" y="153.42" style="fill:#20D0C2;" width="67.348" height="7.016"/> <rect x="82.359" y="167.503" style="fill:#8451fb;" width="37.976" height="7.016"/> <rect x="125.355" y="167.503" style="fill:#20D0C2;" width="27.177" height="7.016"/> <rect x="158.93" y="167.503" style="fill:#FF5B62;" width="76.311" height="7.016"/> <g> <rect x="240.83" y="167.503" style="fill:#20D0C2;" width="27.177" height="7.016"/> <rect x="74.245" y="182.234" style="fill:#20D0C2;" width="101.622" height="7.016"/> </g> <rect x="180.298" y="182.234" style="fill:#8451fb;" width="27.177" height="7.016"/> <rect x="211.347" y="182.234" style="fill:#FF5B62;" width="37.976" height="7.016"/> <g> <rect x="120.375" y="111.093" style="fill:#FFFFFF;" width="2.807" height="8.416"/> <rect x="193.193" y="138.689" style="fill:#FFFFFF;" width="2.807" height="8.416"/> </g> <rect x="75.849" y="202.994" style="fill:#20D0C2;" width="40.742" height="7.016"/> <rect x="121.303" y="202.994" style="fill:#FF5B62;" width="72.269" height="7.016"/> <g> <rect x="197.055" y="202.994" style="fill:#8451fb;" width="61.53" height="7.016"/> <rect x="118.648" y="231.847" style="fill:#8451fb;" width="21.616" height="7.016"/> </g> <rect x="142.761" y="231.847" style="fill:#FF5B62;" width="38.345" height="7.016"/> <g> <rect x="182.953" y="231.847" style="fill:#20D0C2;" width="32.642" height="7.016"/> <rect x="75.592" y="244.183" style="fill:#20D0C2;" width="37.976" height="7.016"/> </g> <rect x="117.95" y="244.183" style="fill:#8451fb;" width="67.348" height="7.016"/> <g> <rect x="120.375" y="216.577" style="fill:#FFFFFF;" width="2.807" height="8.416"/> <rect x="193.193" y="244.183" style="fill:#FFFFFF;" width="2.807" height="8.416"/> </g> <g> <rect x="290.223" y="97.5" style="fill:#DCE3DB;" width="147.352" height="33.984"/> <path style="fill:#DCE3DB;" d="M290.221,136.298h70.178v44.852h-70.178V136.298z"/> <path style="fill:#DCE3DB;" d="M367.398,136.298h70.178v44.852h-70.178V136.298z"/> <path style="fill:#DCE3DB;" d="M290.423,187.581h146.953v2.172H290.423V187.581z M290.423,208.115h96.534v2.172h-96.534V208.115z M290.423,201.269h146.953v2.172H290.423V201.269z M290.423,194.426h146.953v2.172H290.423V194.426z"/> <path style="fill:#DCE3DB;" d="M290.048,215.622h43.793v43.42h-43.793V215.622z M393.961,215.622h43.795v43.42h-43.795V215.622z M342.005,215.622h43.793v43.42h-43.793V215.622z"/> <path style="fill:#DCE3DB;" d="M290.423,265.088h146.953v2.172H290.423V265.088z M290.423,285.622h96.534v2.172h-96.534V285.622z M290.423,278.777h146.953v2.172H290.423V278.777z M290.423,271.934h146.953v2.172H290.423V271.934z"/> </g> </g>
-                
-                </svg>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+                <g id="SVGRepo_iconCarrier">
+                  <circle style="fill: #8451fb" cx="256" cy="256" r="256" />
+                  <ellipse
+                    style="fill: #6d36ec"
+                    cx="256"
+                    cy="421.646"
+                    rx="182.284"
+                    ry="14.371"
+                  />
+                  <path
+                    style="fill: #666666"
+                    d="M65.982,67.223h380.037c12.486,0,22.702,10.216,22.702,22.702v234.107H43.282V89.924 c0-12.486,10.216-22.702,22.702-22.702H65.982z"
+                  />
+                  <g>
+                    <path
+                      style="fill: #ffffff"
+                      d="M58.694,308.617h394.609V89.924c0-3.979-3.309-7.288-7.285-7.288H65.982 c-3.977,0-7.285,3.309-7.285,7.288v218.693H58.694z"
+                    />
+                    <path
+                      style="fill: #ffffff"
+                      d="M468.718,324.031v24.827c0,12.488-11.26,22.702-25.024,22.702H68.307 c-13.764,0-25.024-10.214-25.024-22.702v-24.827H468.72H468.718z"
+                    />
+                  </g>
+                  <circle
+                    style="fill: #b6b6b8"
+                    cx="256"
+                    cy="346.803"
+                    r="7.816"
+                  />
+                  <path
+                    style="fill: #c2c2c4"
+                    d="M305.066,407.273l36.095,11.566H170.836l29.123-11.566v-35.713h105.105v35.713H305.066z"
+                  />
+                  <path
+                    style="fill: #ecf0f1"
+                    d="M199.961,407.273h105.106l36.095,11.566v4.98h-85.16h-85.164v-4.98L199.961,407.273z"
+                  />
+                  <path
+                    style="fill: #919191"
+                    d="M199.961,371.559h105.106v35.713L199.961,371.559z"
+                  />
+                  <rect
+                    x="75.849"
+                    y="97.5"
+                    style="fill: #20d0c2"
+                    width="40.742"
+                    height="7.016"
+                  />
+                  <rect
+                    x="121.303"
+                    y="97.5"
+                    style="fill: #ff5b62"
+                    width="72.269"
+                    height="7.016"
+                  />
+                  <g>
+                    <rect
+                      x="197.055"
+                      y="97.5"
+                      style="fill: #8451fb"
+                      width="61.53"
+                      height="7.016"
+                    />
+                    <rect
+                      x="118.648"
+                      y="126.363"
+                      style="fill: #8451fb"
+                      width="21.616"
+                      height="7.016"
+                    />
+                  </g>
+                  <rect
+                    x="142.761"
+                    y="126.363"
+                    style="fill: #ff5b62"
+                    width="38.345"
+                    height="7.016"
+                  />
+                  <g>
+                    <rect
+                      x="182.953"
+                      y="126.363"
+                      style="fill: #20d0c2"
+                      width="32.642"
+                      height="7.016"
+                    />
+                    <rect
+                      x="75.592"
+                      y="138.689"
+                      style="fill: #20d0c2"
+                      width="37.976"
+                      height="7.016"
+                    />
+                  </g>
+                  <rect
+                    x="117.95"
+                    y="138.689"
+                    style="fill: #8451fb"
+                    width="67.348"
+                    height="7.016"
+                  />
+                  <rect
+                    x="116.133"
+                    y="153.42"
+                    style="fill: #ff5b62"
+                    width="37.976"
+                    height="7.016"
+                  />
+                  <rect
+                    x="158.49"
+                    y="153.42"
+                    style="fill: #20d0c2"
+                    width="67.348"
+                    height="7.016"
+                  />
+                  <rect
+                    x="82.359"
+                    y="167.503"
+                    style="fill: #8451fb"
+                    width="37.976"
+                    height="7.016"
+                  />
+                  <rect
+                    x="125.355"
+                    y="167.503"
+                    style="fill: #20d0c2"
+                    width="27.177"
+                    height="7.016"
+                  />
+                  <rect
+                    x="158.93"
+                    y="167.503"
+                    style="fill: #ff5b62"
+                    width="76.311"
+                    height="7.016"
+                  />
+                  <g>
+                    <rect
+                      x="240.83"
+                      y="167.503"
+                      style="fill: #20d0c2"
+                      width="27.177"
+                      height="7.016"
+                    />
+                    <rect
+                      x="74.245"
+                      y="182.234"
+                      style="fill: #20d0c2"
+                      width="101.622"
+                      height="7.016"
+                    />
+                  </g>
+                  <rect
+                    x="180.298"
+                    y="182.234"
+                    style="fill: #8451fb"
+                    width="27.177"
+                    height="7.016"
+                  />
+                  <rect
+                    x="211.347"
+                    y="182.234"
+                    style="fill: #ff5b62"
+                    width="37.976"
+                    height="7.016"
+                  />
+                  <g>
+                    <rect
+                      x="120.375"
+                      y="111.093"
+                      style="fill: #ffffff"
+                      width="2.807"
+                      height="8.416"
+                    />
+                    <rect
+                      x="193.193"
+                      y="138.689"
+                      style="fill: #ffffff"
+                      width="2.807"
+                      height="8.416"
+                    />
+                  </g>
+                  <rect
+                    x="75.849"
+                    y="202.994"
+                    style="fill: #20d0c2"
+                    width="40.742"
+                    height="7.016"
+                  />
+                  <rect
+                    x="121.303"
+                    y="202.994"
+                    style="fill: #ff5b62"
+                    width="72.269"
+                    height="7.016"
+                  />
+                  <g>
+                    <rect
+                      x="197.055"
+                      y="202.994"
+                      style="fill: #8451fb"
+                      width="61.53"
+                      height="7.016"
+                    />
+                    <rect
+                      x="118.648"
+                      y="231.847"
+                      style="fill: #8451fb"
+                      width="21.616"
+                      height="7.016"
+                    />
+                  </g>
+                  <rect
+                    x="142.761"
+                    y="231.847"
+                    style="fill: #ff5b62"
+                    width="38.345"
+                    height="7.016"
+                  />
+                  <g>
+                    <rect
+                      x="182.953"
+                      y="231.847"
+                      style="fill: #20d0c2"
+                      width="32.642"
+                      height="7.016"
+                    />
+                    <rect
+                      x="75.592"
+                      y="244.183"
+                      style="fill: #20d0c2"
+                      width="37.976"
+                      height="7.016"
+                    />
+                  </g>
+                  <rect
+                    x="117.95"
+                    y="244.183"
+                    style="fill: #8451fb"
+                    width="67.348"
+                    height="7.016"
+                  />
+                  <g>
+                    <rect
+                      x="120.375"
+                      y="216.577"
+                      style="fill: #ffffff"
+                      width="2.807"
+                      height="8.416"
+                    />
+                    <rect
+                      x="193.193"
+                      y="244.183"
+                      style="fill: #ffffff"
+                      width="2.807"
+                      height="8.416"
+                    />
+                  </g>
+                  <g>
+                    <rect
+                      x="290.223"
+                      y="97.5"
+                      style="fill: #dce3db"
+                      width="147.352"
+                      height="33.984"
+                    />
+                    <path
+                      style="fill: #dce3db"
+                      d="M290.221,136.298h70.178v44.852h-70.178V136.298z"
+                    />
+                    <path
+                      style="fill: #dce3db"
+                      d="M367.398,136.298h70.178v44.852h-70.178V136.298z"
+                    />
+                    <path
+                      style="fill: #dce3db"
+                      d="M290.423,187.581h146.953v2.172H290.423V187.581z M290.423,208.115h96.534v2.172h-96.534V208.115z M290.423,201.269h146.953v2.172H290.423V201.269z M290.423,194.426h146.953v2.172H290.423V194.426z"
+                    />
+                    <path
+                      style="fill: #dce3db"
+                      d="M290.048,215.622h43.793v43.42h-43.793V215.622z M393.961,215.622h43.795v43.42h-43.795V215.622z M342.005,215.622h43.793v43.42h-43.793V215.622z"
+                    />
+                    <path
+                      style="fill: #dce3db"
+                      d="M290.423,265.088h146.953v2.172H290.423V265.088z M290.423,285.622h96.534v2.172h-96.534V285.622z M290.423,278.777h146.953v2.172H290.423V278.777z M290.423,271.934h146.953v2.172H290.423V271.934z"
+                    />
+                  </g>
+                </g>
+              </svg>
               <span class="ml-3 text-xl text-white">Mohd Bilal</span>
             </a>
-            <p class="text-sm flex flex-row text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Made with <span><svg width="20px" height="20px" viewBox="0 0 512 512" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{display:none;} .st1{fill:#FFE2D2;} .st2{fill:#FFDE83;} .st3{fill:#F57070;} .st4{fill:#DBDBEF;} .st5{fill:#BCE2FF;} .st6{fill:#48446D;} .st7{fill:#6E78FF;} .st8{fill:#FFBE83;} .st9{fill:#F5949E;} .st10{fill:#D0FF67;} .st11{fill:#C69C6D;} .st12{fill:#C5BDD3;} .st13{fill:#FFE2B8;} .st14{fill:#F54670;} </style> <g class="st0" id="Layer_1"></g> <g id="Layer_2"> <g> <path class="st2" d="M143.31,368.69l-1.83,42l-33.02,33.02l0.2-10.19c0.08-3.87-2.99-7.06-6.86-7.14h-0.14 c-0.17,0-0.33,0.01-0.49,0.03c-0.17,0.01-0.34,0.03-0.5,0.06v-9.57l0.5-0.01l0.5-0.01l0.6-0.01c3.86-0.08,6.94-3.27,6.86-7.14 c-0.08-3.86-3.23-6.94-7.14-6.86l-33.7,0.67l33.02-33.02L143.31,368.69z"></path> <path class="st3" d="M403.65,230.64c-0.16-0.04-0.32-0.08-0.48-0.13c-3.24-0.97-5.39-4.16-4.93-7.62 c0.59-4.47,0.89-8.95,0.89-13.3c0-42.67-34.72-77.38-77.39-77.38c-23.82,0-45.98,10.79-60.79,29.6c-1.33,1.68-3.35,2.67-5.5,2.67 c-2.14,0-4.17-0.99-5.5-2.67c-14.81-18.81-36.97-29.6-60.79-29.6c-42.67,0-77.39,34.71-77.39,77.38 c0,29.45,13.59,61.93,40.38,96.54c2.3,2.97,1.83,7.19-0.98,9.59c-0.09,0.08-0.18,0.16-0.27,0.23c-0.04,0.03-0.08,0.06-0.12,0.09 c-0.14,0.1-0.28,0.18-0.43,0.27c0.01,0.01,0.02,0.02,0.03,0.03c3.63,4.91,9.36,12.26,16.03,19.33c0,0.01,0,0.01,0.01,0.01 l79.15-79.15c-4.45-2.71-9.68-4.28-15.27-4.28c-3.87,0-7-3.13-7-7c0-3.86,3.13-7,7-7c23.96,0,43.45,19.49,43.45,43.45 c0,3.86-3.14,7-7,7c-3.87,0-7-3.14-7-7c0-5.59-1.57-10.82-4.28-15.27l-73.58,73.58c6.62,6.76,13.73,13.63,21.23,20.5 c0.27,0.22,0.47,0.38,0.67,0.56c0.56,0.5,1.19,1.01,1.86,1.55l0.83,0.68c1.22,1,2.31,1.9,3.39,2.69c0.83,0.61,1.73,1.2,2.68,1.83 l0.26,0.17c1.07,0.71,2.33,1.53,3.57,2.26c0.83,0.49,1.76,1,2.98,1.64c1.31,0.69,2.63,1.34,3.92,1.94 c1.13,0.51,2.05,0.91,2.9,1.26c1.27,0.52,2.67,1.04,4.29,1.59l0.47,0.16c0.77,0.26,1.54,0.53,2.32,0.76 c1.64,0.49,3.3,0.89,4.71,1.21c0.32,0.08,0.65,0.16,0.98,0.24c0.53,0.13,1.06,0.26,1.59,0.36c1.84,0.36,3.72,0.61,5.33,0.81 c0.37,0.05,0.74,0.1,1.11,0.16c0.33,0.05,0.65,0.1,0.99,0.13c2.61,0.25,5.01,0.38,7.35,0.38h0.26c2.34,0,4.74-0.13,7.36-0.38 c0.32-0.03,0.64-0.08,0.96-0.13c0.37-0.06,0.74-0.11,1.11-0.16c1.6-0.19,3.49-0.45,5.35-0.81c0.53-0.1,1.06-0.23,1.58-0.36 c0.33-0.08,0.65-0.16,0.97-0.23c1.42-0.33,3.08-0.73,4.73-1.22c0.79-0.24,1.57-0.5,2.34-0.77l0.43-0.14 c1.62-0.55,3.03-1.08,4.32-1.61c0.87-0.35,1.78-0.75,2.88-1.25c1.28-0.58,2.61-1.24,3.95-1.95c1.21-0.64,2.12-1.14,2.95-1.63 c1.27-0.74,2.53-1.56,3.59-2.27l0.28-0.18c0.94-0.62,1.82-1.21,2.64-1.81c1.09-0.79,2.18-1.68,3.33-2.63l0.91-0.74 c0.66-0.54,1.29-1.05,1.85-1.55c0.2-0.17,0.39-0.34,0.59-0.49c34.91-31.97,60.17-62.73,75.09-91.43c1.52-2.91,4.8-4.29,7.84-3.55 c0.17,0.04,0.34,0.06,0.5,0.11c0.16,0.05,0.32,0.11,0.47,0.17c1.83-4.17,3.68-8.75,5.48-13.61c0.01-0.03,0.02-0.06,0.03-0.09 c-0.15-0.01-0.29-0.03-0.44-0.06c-0.02,0-0.04-0.01-0.06-0.02c-0.16-0.03-0.33-0.08-0.49-0.12c-0.26-0.08-0.51-0.16-0.76-0.26 c-0.42-0.18-0.83-0.4-1.21-0.65c-0.38-0.25-0.74-0.55-1.06-0.87c-1.31-1.3-2.05-3.1-2.05-4.95c0-1.84,0.74-3.65,2.05-4.95 c0.32-0.32,0.68-0.61,1.06-0.87c0.38-0.25,0.79-0.47,1.21-0.64c0.42-0.18,0.86-0.31,1.31-0.4c1.34-0.28,2.73-0.1,3.97,0.41 c0.16,0.06,0.32,0.11,0.47,0.18c0.15,0.07,0.29,0.17,0.44,0.26c0.01-0.04,0.03-0.07,0.04-0.11c0.87-2.73,1.7-5.46,2.54-8.35 c0.01-0.02,0.01-0.03,0.02-0.05C403.98,230.7,403.81,230.68,403.65,230.64z M189.16,172.21c-20.62,0-37.39,16.77-37.39,37.38 c0,4.93,0.65,10.16,1.92,15.55c0.89,3.77-1.44,7.54-5.2,8.42c-0.54,0.13-1.08,0.19-1.61,0.19c-3.18,0-6.05-2.17-6.81-5.39 c-1.52-6.45-2.3-12.76-2.3-18.77c0-28.33,23.06-51.38,51.39-51.38c3.86,0,7,3.13,7,7S193.02,172.21,189.16,172.21z"></path> <path class="st2" d="M447.54,64.46l-23.71,54.94l-6.62-20.15c-0.01-0.03-0.03-0.07-0.04-0.11c-0.07-0.19-0.14-0.37-0.23-0.56 c-0.02-0.06-0.05-0.12-0.08-0.19c-0.09-0.17-0.18-0.34-0.28-0.51c-0.03-0.06-0.07-0.12-0.1-0.17c-0.11-0.17-0.23-0.34-0.35-0.5 c-0.04-0.05-0.07-0.09-0.1-0.14c-0.16-0.2-0.33-0.39-0.52-0.58c-0.19-0.18-0.38-0.36-0.58-0.52c-0.05-0.03-0.1-0.07-0.15-0.11 c-0.16-0.12-0.32-0.23-0.48-0.33c-0.06-0.04-0.13-0.08-0.19-0.12c-0.16-0.09-0.33-0.18-0.49-0.26c-0.07-0.04-0.14-0.07-0.21-0.1 c-0.18-0.08-0.35-0.15-0.53-0.21c-0.05-0.01-0.09-0.04-0.13-0.05l-20.15-6.62L447.54,64.46z"></path> <path class="st6" d="M196.16,165.21c0,3.87-3.14,7-7,7c-20.62,0-37.39,16.77-37.39,37.38c0,4.93,0.65,10.16,1.92,15.55 c0.89,3.77-1.44,7.54-5.2,8.42c-0.54,0.13-1.08,0.19-1.61,0.19c-3.18,0-6.05-2.17-6.81-5.39c-1.52-6.45-2.3-12.76-2.3-18.77 c0-28.33,23.06-51.38,51.39-51.38C193.02,158.21,196.16,161.34,196.16,165.21z"></path> <path class="st6" d="M405.04,245.25c0,1.84-0.75,3.65-2.05,4.95c-1.31,1.3-3.11,2.05-4.95,2.05c-0.31,0-0.62-0.03-0.93-0.07 c-0.15-0.01-0.29-0.03-0.44-0.06c-0.02,0-0.04-0.01-0.06-0.02c-0.16-0.03-0.33-0.08-0.49-0.12c-0.26-0.08-0.51-0.16-0.76-0.26 c-0.42-0.18-0.83-0.4-1.21-0.65c-0.38-0.25-0.74-0.55-1.06-0.87c-1.31-1.3-2.05-3.1-2.05-4.95c0-1.84,0.74-3.65,2.05-4.95 c0.32-0.32,0.68-0.61,1.06-0.87c0.38-0.25,0.79-0.47,1.21-0.64c0.42-0.18,0.86-0.31,1.31-0.4c1.34-0.28,2.73-0.1,3.97,0.41 c0.16,0.06,0.32,0.11,0.47,0.18c0.15,0.07,0.29,0.17,0.44,0.26c0.52,0.3,1.01,0.64,1.44,1.06 C404.29,241.61,405.04,243.41,405.04,245.25z"></path> <path class="st6" d="M395.21,275.61c-15.67,30.16-41.93,62.22-78.04,95.29c-0.23,0.2-0.47,0.4-0.71,0.6l0.01-0.02 c-0.83,0.75-1.63,1.4-2.4,2.02l-0.83,0.68c-1.26,1.03-2.55,2.09-3.95,3.11c-1.09,0.8-2.16,1.5-3.19,2.19l-0.27,0.17 c-1.21,0.81-2.68,1.77-4.25,2.68c-1.01,0.6-2.08,1.19-3.48,1.93c-1.57,0.83-3.14,1.61-4.67,2.3c-1.28,0.59-2.36,1.06-3.4,1.48 c-1.56,0.64-3.23,1.26-5.11,1.9l-0.42,0.14c-0.94,0.33-1.89,0.65-2.85,0.93c-2.04,0.61-4.05,1.1-5.58,1.45l-0.84,0.2 c-0.72,0.17-1.45,0.35-2.18,0.49c-2.31,0.45-4.59,0.75-6.32,0.97c-0.25,0.03-0.5,0.07-0.76,0.1c-0.55,0.09-1.11,0.17-1.68,0.22 c-3.12,0.3-6,0.45-8.82,0.45h-0.04c-2.82,0-5.71-0.14-8.81-0.44c-0.58-0.06-1.15-0.14-1.72-0.23c-0.26-0.04-0.51-0.08-0.76-0.11 c-1.84-0.23-4.02-0.52-6.28-0.96c-0.74-0.14-1.47-0.32-2.2-0.49l-0.84-0.2c-1.63-0.38-3.56-0.84-5.56-1.44 c-0.96-0.29-1.9-0.61-2.84-0.93l-0.46-0.15c-1.89-0.65-3.55-1.27-5.07-1.89c-1.02-0.41-2.12-0.89-3.44-1.49 c-1.54-0.71-3.09-1.48-4.63-2.29c-1.41-0.74-2.5-1.34-3.52-1.94c-1.54-0.9-2.99-1.85-4.21-2.66l-0.26-0.17 c-1.05-0.69-2.12-1.41-3.23-2.21c-1.39-1.02-2.69-2.09-3.94-3.11l-0.82-0.67c-0.76-0.62-1.54-1.25-2.35-1.98 c-0.31-0.24-0.54-0.43-0.76-0.64c-7.67-7.02-14.95-14.05-21.74-20.98l-14.49,14.48l-2.15,49.62c-0.07,1.75-0.8,3.41-2.04,4.65 l-4.54,4.54l-40.52,40.52l-2.18,2.18c-1.34,1.34-3.13,2.05-4.95,2.05c-0.93,0-1.86-0.18-2.74-0.56c-1.69-0.72-2.99-2.05-3.68-3.67 c-0.39-0.9-0.6-1.89-0.58-2.91l0.55-27.57c0-0.16,0.01-0.32,0.03-0.47c0-0.11,0.02-0.21,0.03-0.31c0.02-0.14,0.04-0.27,0.07-0.41 c0.01-0.09,0.03-0.18,0.05-0.27c0.01-0.02,0.01-0.05,0.02-0.07c0.03-0.15,0.07-0.29,0.12-0.43c0.05-0.18,0.12-0.36,0.19-0.53 c0.01-0.02,0.02-0.05,0.03-0.07c0.07-0.18,0.16-0.36,0.25-0.52c0.08-0.17,0.18-0.33,0.28-0.49v-0.01c0.06-0.1,0.12-0.2,0.21-0.3 c0.07-0.12,0.15-0.23,0.24-0.33c0.11-0.15,0.24-0.29,0.37-0.43c0.04-0.05,0.08-0.09,0.13-0.14c0.09-0.1,0.19-0.19,0.3-0.28 c0.05-0.05,0.11-0.1,0.16-0.14c0.1-0.09,0.2-0.18,0.31-0.25c0.08-0.06,0.17-0.13,0.26-0.18c0.06-0.04,0.11-0.08,0.17-0.12 c0.01-0.01,0.02-0.01,0.03-0.02c0.12-0.07,0.23-0.14,0.35-0.21c0.01,0,0.03-0.01,0.04-0.02c0.02,0,0.03-0.01,0.04-0.02l0.01-0.01 c0.18-0.08,0.34-0.17,0.52-0.24c0.09-0.04,0.18-0.08,0.27-0.11c0.09-0.04,0.17-0.06,0.27-0.09c0.03-0.02,0.07-0.03,0.11-0.04 c0.15-0.05,0.31-0.1,0.46-0.13c0.01-0.01,0.01-0.01,0.02-0.01c0.06-0.01,0.11-0.02,0.17-0.03c0.15-0.04,0.3-0.07,0.45-0.08 c0.01-0.01,0.02-0.01,0.03-0.01h0.01c0.16-0.03,0.33-0.05,0.5-0.06c0.16-0.02,0.32-0.03,0.49-0.03h0.14 c3.87,0.08,6.94,3.27,6.86,7.14l-0.2,10.19l33.02-33.02l1.83-42l-42,1.83l-33.02,33.02l33.7-0.67c3.91-0.08,7.06,3,7.14,6.86 c0.08,3.87-3,7.06-6.86,7.14l-0.6,0.01l-0.5,0.01l-0.5,0.01l-49.48,0.98h-0.14c-2.8,0-5.34-1.67-6.44-4.26 c-1.12-2.63-0.53-5.67,1.49-7.69l47.24-47.24c1.24-1.24,2.9-1.97,4.65-2.04l49.62-2.16l97.96-97.96 c-4.45-2.71-9.68-4.28-15.27-4.28c-3.87,0-7-3.13-7-7c0-3.86,3.13-7,7-7c23.96,0,43.45,19.49,43.45,43.45c0,3.86-3.14,7-7,7 c-3.87,0-7-3.14-7-7c0-5.59-1.57-10.82-4.28-15.27l-73.58,73.58c6.62,6.76,13.73,13.63,21.23,20.5c0.27,0.22,0.47,0.38,0.67,0.56 c0.56,0.5,1.19,1.01,1.86,1.55l0.83,0.68c1.22,1,2.31,1.9,3.39,2.69c0.83,0.61,1.73,1.2,2.68,1.83l0.26,0.17 c1.07,0.71,2.33,1.53,3.57,2.26c0.83,0.49,1.76,1,2.98,1.64c1.31,0.69,2.63,1.34,3.92,1.94c1.13,0.51,2.05,0.91,2.9,1.26 c1.27,0.52,2.67,1.04,4.29,1.59l0.47,0.16c0.77,0.26,1.54,0.53,2.32,0.76c1.64,0.49,3.3,0.89,4.71,1.21 c0.32,0.08,0.65,0.16,0.98,0.24c0.53,0.13,1.06,0.26,1.59,0.36c1.84,0.36,3.72,0.61,5.33,0.81c0.37,0.05,0.74,0.1,1.11,0.16 c0.33,0.05,0.65,0.1,0.99,0.13c2.61,0.25,5.01,0.38,7.35,0.38h0.26c2.34,0,4.74-0.13,7.36-0.38c0.32-0.03,0.64-0.08,0.96-0.13 c0.37-0.06,0.74-0.11,1.11-0.16c1.6-0.19,3.49-0.45,5.35-0.81c0.53-0.1,1.06-0.23,1.58-0.36c0.33-0.08,0.65-0.16,0.97-0.23 c1.42-0.33,3.08-0.73,4.73-1.22c0.79-0.24,1.57-0.5,2.34-0.77l0.43-0.14c1.62-0.55,3.03-1.08,4.32-1.61 c0.87-0.35,1.78-0.75,2.88-1.25c1.28-0.58,2.61-1.24,3.95-1.95c1.21-0.64,2.12-1.14,2.95-1.63c1.27-0.74,2.53-1.56,3.59-2.27 l0.28-0.18c0.94-0.62,1.82-1.21,2.64-1.81c1.09-0.79,2.18-1.68,3.33-2.63l0.91-0.74c0.66-0.54,1.29-1.05,1.85-1.55 c0.2-0.17,0.39-0.34,0.59-0.49c34.91-31.97,60.17-62.73,75.09-91.43c1.52-2.91,4.8-4.29,7.84-3.55c0.17,0.04,0.34,0.06,0.5,0.11 c0.16,0.05,0.32,0.11,0.47,0.17c0.21,0.09,0.42,0.18,0.63,0.29C395.66,267.95,397,272.18,395.21,275.61z"></path> <path class="st6" d="M465.9,46.1c-2.03-2.03-5.09-2.61-7.72-1.48l-88.07,38c-2.67,1.15-4.35,3.84-4.22,6.74 c0.13,2.91,2.04,5.43,4.8,6.34l26.87,8.84l-27.51,27.51c-14.03-8.76-30.58-13.84-48.31-13.84c-25.33,0-49.05,10.31-66.29,28.56 c-17.23-18.25-40.96-28.56-66.29-28.56c-50.39,0-91.39,40.99-91.39,91.38c0,32.62,14.57,67.99,43.31,105.11 c1.38,1.79,3.45,2.72,5.54,2.72c1.29,0,2.58-0.38,3.73-1.11c0.15-0.09,0.29-0.17,0.43-0.27c0.04-0.03,0.08-0.06,0.12-0.09 c0.09-0.07,0.18-0.15,0.27-0.23c2.81-2.4,3.28-6.62,0.98-9.59c-26.79-34.61-40.38-67.09-40.38-96.54 c0-42.67,34.72-77.38,77.39-77.38c23.82,0,45.98,10.79,60.79,29.6c1.33,1.68,3.36,2.67,5.5,2.67c2.15,0,4.17-0.99,5.5-2.67 c14.81-18.81,36.97-29.6,60.79-29.6c42.67,0,77.39,34.71,77.39,77.38c0,4.35-0.3,8.83-0.89,13.3c-0.46,3.46,1.69,6.65,4.93,7.62 c0.16,0.05,0.32,0.09,0.48,0.13c0.16,0.04,0.33,0.06,0.5,0.09c0.03,0.01,0.07,0.01,0.11,0.02c3.84,0.5,7.35-2.19,7.86-6.03 c0.67-5.08,1.01-10.17,1.01-15.13c0-27.59-12.3-52.36-31.69-69.13l26.02-26.02l8.84,26.87c0.91,2.76,3.43,4.67,6.34,4.8 c0.1,0.01,0.21,0.01,0.31,0.01c2.78,0,5.32-1.65,6.43-4.23l38-88.07C468.51,51.19,467.93,48.13,465.9,46.1z M423.83,119.4 l-6.62-20.15c-0.01-0.03-0.03-0.07-0.04-0.11c-0.07-0.19-0.14-0.37-0.23-0.56c-0.02-0.06-0.05-0.12-0.08-0.19 c-0.09-0.17-0.18-0.34-0.28-0.51c-0.03-0.06-0.07-0.12-0.1-0.17c-0.11-0.17-0.23-0.34-0.35-0.5c-0.04-0.05-0.07-0.09-0.1-0.14 c-0.16-0.2-0.33-0.39-0.52-0.58c-0.19-0.18-0.38-0.36-0.58-0.52c-0.05-0.03-0.1-0.07-0.15-0.11c-0.16-0.12-0.32-0.23-0.48-0.33 c-0.06-0.04-0.13-0.08-0.19-0.12c-0.16-0.09-0.33-0.18-0.49-0.26c-0.07-0.04-0.14-0.07-0.21-0.1c-0.18-0.08-0.35-0.15-0.53-0.21 c-0.05-0.01-0.09-0.04-0.13-0.05l-20.15-6.62l54.94-23.71L423.83,119.4z"></path> </g> </g> </g></svg></span>  © 2023 —
-              <a href="https://instagram.com/mohd.bilal__?igshid=MzRlODBiNWFlZA==" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@mohd.bilal__</a>
+            <p
+              class="text-sm flex flex-row text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+            >
+              Made with
+              <span
+                ><svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 512 512"
+                  version="1.1"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  fill="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <style type="text/css">
+                      .st0 {
+                        display: none;
+                      }
+                      .st1 {
+                        fill: #ffe2d2;
+                      }
+                      .st2 {
+                        fill: #ffde83;
+                      }
+                      .st3 {
+                        fill: #f57070;
+                      }
+                      .st4 {
+                        fill: #dbdbef;
+                      }
+                      .st5 {
+                        fill: #bce2ff;
+                      }
+                      .st6 {
+                        fill: #48446d;
+                      }
+                      .st7 {
+                        fill: #6e78ff;
+                      }
+                      .st8 {
+                        fill: #ffbe83;
+                      }
+                      .st9 {
+                        fill: #f5949e;
+                      }
+                      .st10 {
+                        fill: #d0ff67;
+                      }
+                      .st11 {
+                        fill: #c69c6d;
+                      }
+                      .st12 {
+                        fill: #c5bdd3;
+                      }
+                      .st13 {
+                        fill: #ffe2b8;
+                      }
+                      .st14 {
+                        fill: #f54670;
+                      }
+                    </style>
+                    <g class="st0" id="Layer_1"></g>
+                    <g id="Layer_2">
+                      <g>
+                        <path
+                          class="st2"
+                          d="M143.31,368.69l-1.83,42l-33.02,33.02l0.2-10.19c0.08-3.87-2.99-7.06-6.86-7.14h-0.14 c-0.17,0-0.33,0.01-0.49,0.03c-0.17,0.01-0.34,0.03-0.5,0.06v-9.57l0.5-0.01l0.5-0.01l0.6-0.01c3.86-0.08,6.94-3.27,6.86-7.14 c-0.08-3.86-3.23-6.94-7.14-6.86l-33.7,0.67l33.02-33.02L143.31,368.69z"
+                        ></path>
+                        <path
+                          class="st3"
+                          d="M403.65,230.64c-0.16-0.04-0.32-0.08-0.48-0.13c-3.24-0.97-5.39-4.16-4.93-7.62 c0.59-4.47,0.89-8.95,0.89-13.3c0-42.67-34.72-77.38-77.39-77.38c-23.82,0-45.98,10.79-60.79,29.6c-1.33,1.68-3.35,2.67-5.5,2.67 c-2.14,0-4.17-0.99-5.5-2.67c-14.81-18.81-36.97-29.6-60.79-29.6c-42.67,0-77.39,34.71-77.39,77.38 c0,29.45,13.59,61.93,40.38,96.54c2.3,2.97,1.83,7.19-0.98,9.59c-0.09,0.08-0.18,0.16-0.27,0.23c-0.04,0.03-0.08,0.06-0.12,0.09 c-0.14,0.1-0.28,0.18-0.43,0.27c0.01,0.01,0.02,0.02,0.03,0.03c3.63,4.91,9.36,12.26,16.03,19.33c0,0.01,0,0.01,0.01,0.01 l79.15-79.15c-4.45-2.71-9.68-4.28-15.27-4.28c-3.87,0-7-3.13-7-7c0-3.86,3.13-7,7-7c23.96,0,43.45,19.49,43.45,43.45 c0,3.86-3.14,7-7,7c-3.87,0-7-3.14-7-7c0-5.59-1.57-10.82-4.28-15.27l-73.58,73.58c6.62,6.76,13.73,13.63,21.23,20.5 c0.27,0.22,0.47,0.38,0.67,0.56c0.56,0.5,1.19,1.01,1.86,1.55l0.83,0.68c1.22,1,2.31,1.9,3.39,2.69c0.83,0.61,1.73,1.2,2.68,1.83 l0.26,0.17c1.07,0.71,2.33,1.53,3.57,2.26c0.83,0.49,1.76,1,2.98,1.64c1.31,0.69,2.63,1.34,3.92,1.94 c1.13,0.51,2.05,0.91,2.9,1.26c1.27,0.52,2.67,1.04,4.29,1.59l0.47,0.16c0.77,0.26,1.54,0.53,2.32,0.76 c1.64,0.49,3.3,0.89,4.71,1.21c0.32,0.08,0.65,0.16,0.98,0.24c0.53,0.13,1.06,0.26,1.59,0.36c1.84,0.36,3.72,0.61,5.33,0.81 c0.37,0.05,0.74,0.1,1.11,0.16c0.33,0.05,0.65,0.1,0.99,0.13c2.61,0.25,5.01,0.38,7.35,0.38h0.26c2.34,0,4.74-0.13,7.36-0.38 c0.32-0.03,0.64-0.08,0.96-0.13c0.37-0.06,0.74-0.11,1.11-0.16c1.6-0.19,3.49-0.45,5.35-0.81c0.53-0.1,1.06-0.23,1.58-0.36 c0.33-0.08,0.65-0.16,0.97-0.23c1.42-0.33,3.08-0.73,4.73-1.22c0.79-0.24,1.57-0.5,2.34-0.77l0.43-0.14 c1.62-0.55,3.03-1.08,4.32-1.61c0.87-0.35,1.78-0.75,2.88-1.25c1.28-0.58,2.61-1.24,3.95-1.95c1.21-0.64,2.12-1.14,2.95-1.63 c1.27-0.74,2.53-1.56,3.59-2.27l0.28-0.18c0.94-0.62,1.82-1.21,2.64-1.81c1.09-0.79,2.18-1.68,3.33-2.63l0.91-0.74 c0.66-0.54,1.29-1.05,1.85-1.55c0.2-0.17,0.39-0.34,0.59-0.49c34.91-31.97,60.17-62.73,75.09-91.43c1.52-2.91,4.8-4.29,7.84-3.55 c0.17,0.04,0.34,0.06,0.5,0.11c0.16,0.05,0.32,0.11,0.47,0.17c1.83-4.17,3.68-8.75,5.48-13.61c0.01-0.03,0.02-0.06,0.03-0.09 c-0.15-0.01-0.29-0.03-0.44-0.06c-0.02,0-0.04-0.01-0.06-0.02c-0.16-0.03-0.33-0.08-0.49-0.12c-0.26-0.08-0.51-0.16-0.76-0.26 c-0.42-0.18-0.83-0.4-1.21-0.65c-0.38-0.25-0.74-0.55-1.06-0.87c-1.31-1.3-2.05-3.1-2.05-4.95c0-1.84,0.74-3.65,2.05-4.95 c0.32-0.32,0.68-0.61,1.06-0.87c0.38-0.25,0.79-0.47,1.21-0.64c0.42-0.18,0.86-0.31,1.31-0.4c1.34-0.28,2.73-0.1,3.97,0.41 c0.16,0.06,0.32,0.11,0.47,0.18c0.15,0.07,0.29,0.17,0.44,0.26c0.01-0.04,0.03-0.07,0.04-0.11c0.87-2.73,1.7-5.46,2.54-8.35 c0.01-0.02,0.01-0.03,0.02-0.05C403.98,230.7,403.81,230.68,403.65,230.64z M189.16,172.21c-20.62,0-37.39,16.77-37.39,37.38 c0,4.93,0.65,10.16,1.92,15.55c0.89,3.77-1.44,7.54-5.2,8.42c-0.54,0.13-1.08,0.19-1.61,0.19c-3.18,0-6.05-2.17-6.81-5.39 c-1.52-6.45-2.3-12.76-2.3-18.77c0-28.33,23.06-51.38,51.39-51.38c3.86,0,7,3.13,7,7S193.02,172.21,189.16,172.21z"
+                        ></path>
+                        <path
+                          class="st2"
+                          d="M447.54,64.46l-23.71,54.94l-6.62-20.15c-0.01-0.03-0.03-0.07-0.04-0.11c-0.07-0.19-0.14-0.37-0.23-0.56 c-0.02-0.06-0.05-0.12-0.08-0.19c-0.09-0.17-0.18-0.34-0.28-0.51c-0.03-0.06-0.07-0.12-0.1-0.17c-0.11-0.17-0.23-0.34-0.35-0.5 c-0.04-0.05-0.07-0.09-0.1-0.14c-0.16-0.2-0.33-0.39-0.52-0.58c-0.19-0.18-0.38-0.36-0.58-0.52c-0.05-0.03-0.1-0.07-0.15-0.11 c-0.16-0.12-0.32-0.23-0.48-0.33c-0.06-0.04-0.13-0.08-0.19-0.12c-0.16-0.09-0.33-0.18-0.49-0.26c-0.07-0.04-0.14-0.07-0.21-0.1 c-0.18-0.08-0.35-0.15-0.53-0.21c-0.05-0.01-0.09-0.04-0.13-0.05l-20.15-6.62L447.54,64.46z"
+                        ></path>
+                        <path
+                          class="st6"
+                          d="M196.16,165.21c0,3.87-3.14,7-7,7c-20.62,0-37.39,16.77-37.39,37.38c0,4.93,0.65,10.16,1.92,15.55 c0.89,3.77-1.44,7.54-5.2,8.42c-0.54,0.13-1.08,0.19-1.61,0.19c-3.18,0-6.05-2.17-6.81-5.39c-1.52-6.45-2.3-12.76-2.3-18.77 c0-28.33,23.06-51.38,51.39-51.38C193.02,158.21,196.16,161.34,196.16,165.21z"
+                        ></path>
+                        <path
+                          class="st6"
+                          d="M405.04,245.25c0,1.84-0.75,3.65-2.05,4.95c-1.31,1.3-3.11,2.05-4.95,2.05c-0.31,0-0.62-0.03-0.93-0.07 c-0.15-0.01-0.29-0.03-0.44-0.06c-0.02,0-0.04-0.01-0.06-0.02c-0.16-0.03-0.33-0.08-0.49-0.12c-0.26-0.08-0.51-0.16-0.76-0.26 c-0.42-0.18-0.83-0.4-1.21-0.65c-0.38-0.25-0.74-0.55-1.06-0.87c-1.31-1.3-2.05-3.1-2.05-4.95c0-1.84,0.74-3.65,2.05-4.95 c0.32-0.32,0.68-0.61,1.06-0.87c0.38-0.25,0.79-0.47,1.21-0.64c0.42-0.18,0.86-0.31,1.31-0.4c1.34-0.28,2.73-0.1,3.97,0.41 c0.16,0.06,0.32,0.11,0.47,0.18c0.15,0.07,0.29,0.17,0.44,0.26c0.52,0.3,1.01,0.64,1.44,1.06 C404.29,241.61,405.04,243.41,405.04,245.25z"
+                        ></path>
+                        <path
+                          class="st6"
+                          d="M395.21,275.61c-15.67,30.16-41.93,62.22-78.04,95.29c-0.23,0.2-0.47,0.4-0.71,0.6l0.01-0.02 c-0.83,0.75-1.63,1.4-2.4,2.02l-0.83,0.68c-1.26,1.03-2.55,2.09-3.95,3.11c-1.09,0.8-2.16,1.5-3.19,2.19l-0.27,0.17 c-1.21,0.81-2.68,1.77-4.25,2.68c-1.01,0.6-2.08,1.19-3.48,1.93c-1.57,0.83-3.14,1.61-4.67,2.3c-1.28,0.59-2.36,1.06-3.4,1.48 c-1.56,0.64-3.23,1.26-5.11,1.9l-0.42,0.14c-0.94,0.33-1.89,0.65-2.85,0.93c-2.04,0.61-4.05,1.1-5.58,1.45l-0.84,0.2 c-0.72,0.17-1.45,0.35-2.18,0.49c-2.31,0.45-4.59,0.75-6.32,0.97c-0.25,0.03-0.5,0.07-0.76,0.1c-0.55,0.09-1.11,0.17-1.68,0.22 c-3.12,0.3-6,0.45-8.82,0.45h-0.04c-2.82,0-5.71-0.14-8.81-0.44c-0.58-0.06-1.15-0.14-1.72-0.23c-0.26-0.04-0.51-0.08-0.76-0.11 c-1.84-0.23-4.02-0.52-6.28-0.96c-0.74-0.14-1.47-0.32-2.2-0.49l-0.84-0.2c-1.63-0.38-3.56-0.84-5.56-1.44 c-0.96-0.29-1.9-0.61-2.84-0.93l-0.46-0.15c-1.89-0.65-3.55-1.27-5.07-1.89c-1.02-0.41-2.12-0.89-3.44-1.49 c-1.54-0.71-3.09-1.48-4.63-2.29c-1.41-0.74-2.5-1.34-3.52-1.94c-1.54-0.9-2.99-1.85-4.21-2.66l-0.26-0.17 c-1.05-0.69-2.12-1.41-3.23-2.21c-1.39-1.02-2.69-2.09-3.94-3.11l-0.82-0.67c-0.76-0.62-1.54-1.25-2.35-1.98 c-0.31-0.24-0.54-0.43-0.76-0.64c-7.67-7.02-14.95-14.05-21.74-20.98l-14.49,14.48l-2.15,49.62c-0.07,1.75-0.8,3.41-2.04,4.65 l-4.54,4.54l-40.52,40.52l-2.18,2.18c-1.34,1.34-3.13,2.05-4.95,2.05c-0.93,0-1.86-0.18-2.74-0.56c-1.69-0.72-2.99-2.05-3.68-3.67 c-0.39-0.9-0.6-1.89-0.58-2.91l0.55-27.57c0-0.16,0.01-0.32,0.03-0.47c0-0.11,0.02-0.21,0.03-0.31c0.02-0.14,0.04-0.27,0.07-0.41 c0.01-0.09,0.03-0.18,0.05-0.27c0.01-0.02,0.01-0.05,0.02-0.07c0.03-0.15,0.07-0.29,0.12-0.43c0.05-0.18,0.12-0.36,0.19-0.53 c0.01-0.02,0.02-0.05,0.03-0.07c0.07-0.18,0.16-0.36,0.25-0.52c0.08-0.17,0.18-0.33,0.28-0.49v-0.01c0.06-0.1,0.12-0.2,0.21-0.3 c0.07-0.12,0.15-0.23,0.24-0.33c0.11-0.15,0.24-0.29,0.37-0.43c0.04-0.05,0.08-0.09,0.13-0.14c0.09-0.1,0.19-0.19,0.3-0.28 c0.05-0.05,0.11-0.1,0.16-0.14c0.1-0.09,0.2-0.18,0.31-0.25c0.08-0.06,0.17-0.13,0.26-0.18c0.06-0.04,0.11-0.08,0.17-0.12 c0.01-0.01,0.02-0.01,0.03-0.02c0.12-0.07,0.23-0.14,0.35-0.21c0.01,0,0.03-0.01,0.04-0.02c0.02,0,0.03-0.01,0.04-0.02l0.01-0.01 c0.18-0.08,0.34-0.17,0.52-0.24c0.09-0.04,0.18-0.08,0.27-0.11c0.09-0.04,0.17-0.06,0.27-0.09c0.03-0.02,0.07-0.03,0.11-0.04 c0.15-0.05,0.31-0.1,0.46-0.13c0.01-0.01,0.01-0.01,0.02-0.01c0.06-0.01,0.11-0.02,0.17-0.03c0.15-0.04,0.3-0.07,0.45-0.08 c0.01-0.01,0.02-0.01,0.03-0.01h0.01c0.16-0.03,0.33-0.05,0.5-0.06c0.16-0.02,0.32-0.03,0.49-0.03h0.14 c3.87,0.08,6.94,3.27,6.86,7.14l-0.2,10.19l33.02-33.02l1.83-42l-42,1.83l-33.02,33.02l33.7-0.67c3.91-0.08,7.06,3,7.14,6.86 c0.08,3.87-3,7.06-6.86,7.14l-0.6,0.01l-0.5,0.01l-0.5,0.01l-49.48,0.98h-0.14c-2.8,0-5.34-1.67-6.44-4.26 c-1.12-2.63-0.53-5.67,1.49-7.69l47.24-47.24c1.24-1.24,2.9-1.97,4.65-2.04l49.62-2.16l97.96-97.96 c-4.45-2.71-9.68-4.28-15.27-4.28c-3.87,0-7-3.13-7-7c0-3.86,3.13-7,7-7c23.96,0,43.45,19.49,43.45,43.45c0,3.86-3.14,7-7,7 c-3.87,0-7-3.14-7-7c0-5.59-1.57-10.82-4.28-15.27l-73.58,73.58c6.62,6.76,13.73,13.63,21.23,20.5c0.27,0.22,0.47,0.38,0.67,0.56 c0.56,0.5,1.19,1.01,1.86,1.55l0.83,0.68c1.22,1,2.31,1.9,3.39,2.69c0.83,0.61,1.73,1.2,2.68,1.83l0.26,0.17 c1.07,0.71,2.33,1.53,3.57,2.26c0.83,0.49,1.76,1,2.98,1.64c1.31,0.69,2.63,1.34,3.92,1.94c1.13,0.51,2.05,0.91,2.9,1.26 c1.27,0.52,2.67,1.04,4.29,1.59l0.47,0.16c0.77,0.26,1.54,0.53,2.32,0.76c1.64,0.49,3.3,0.89,4.71,1.21 c0.32,0.08,0.65,0.16,0.98,0.24c0.53,0.13,1.06,0.26,1.59,0.36c1.84,0.36,3.72,0.61,5.33,0.81c0.37,0.05,0.74,0.1,1.11,0.16 c0.33,0.05,0.65,0.1,0.99,0.13c2.61,0.25,5.01,0.38,7.35,0.38h0.26c2.34,0,4.74-0.13,7.36-0.38c0.32-0.03,0.64-0.08,0.96-0.13 c0.37-0.06,0.74-0.11,1.11-0.16c1.6-0.19,3.49-0.45,5.35-0.81c0.53-0.1,1.06-0.23,1.58-0.36c0.33-0.08,0.65-0.16,0.97-0.23 c1.42-0.33,3.08-0.73,4.73-1.22c0.79-0.24,1.57-0.5,2.34-0.77l0.43-0.14c1.62-0.55,3.03-1.08,4.32-1.61 c0.87-0.35,1.78-0.75,2.88-1.25c1.28-0.58,2.61-1.24,3.95-1.95c1.21-0.64,2.12-1.14,2.95-1.63c1.27-0.74,2.53-1.56,3.59-2.27 l0.28-0.18c0.94-0.62,1.82-1.21,2.64-1.81c1.09-0.79,2.18-1.68,3.33-2.63l0.91-0.74c0.66-0.54,1.29-1.05,1.85-1.55 c0.2-0.17,0.39-0.34,0.59-0.49c34.91-31.97,60.17-62.73,75.09-91.43c1.52-2.91,4.8-4.29,7.84-3.55c0.17,0.04,0.34,0.06,0.5,0.11 c0.16,0.05,0.32,0.11,0.47,0.17c0.21,0.09,0.42,0.18,0.63,0.29C395.66,267.95,397,272.18,395.21,275.61z"
+                        ></path>
+                        <path
+                          class="st6"
+                          d="M465.9,46.1c-2.03-2.03-5.09-2.61-7.72-1.48l-88.07,38c-2.67,1.15-4.35,3.84-4.22,6.74 c0.13,2.91,2.04,5.43,4.8,6.34l26.87,8.84l-27.51,27.51c-14.03-8.76-30.58-13.84-48.31-13.84c-25.33,0-49.05,10.31-66.29,28.56 c-17.23-18.25-40.96-28.56-66.29-28.56c-50.39,0-91.39,40.99-91.39,91.38c0,32.62,14.57,67.99,43.31,105.11 c1.38,1.79,3.45,2.72,5.54,2.72c1.29,0,2.58-0.38,3.73-1.11c0.15-0.09,0.29-0.17,0.43-0.27c0.04-0.03,0.08-0.06,0.12-0.09 c0.09-0.07,0.18-0.15,0.27-0.23c2.81-2.4,3.28-6.62,0.98-9.59c-26.79-34.61-40.38-67.09-40.38-96.54 c0-42.67,34.72-77.38,77.39-77.38c23.82,0,45.98,10.79,60.79,29.6c1.33,1.68,3.36,2.67,5.5,2.67c2.15,0,4.17-0.99,5.5-2.67 c14.81-18.81,36.97-29.6,60.79-29.6c42.67,0,77.39,34.71,77.39,77.38c0,4.35-0.3,8.83-0.89,13.3c-0.46,3.46,1.69,6.65,4.93,7.62 c0.16,0.05,0.32,0.09,0.48,0.13c0.16,0.04,0.33,0.06,0.5,0.09c0.03,0.01,0.07,0.01,0.11,0.02c3.84,0.5,7.35-2.19,7.86-6.03 c0.67-5.08,1.01-10.17,1.01-15.13c0-27.59-12.3-52.36-31.69-69.13l26.02-26.02l8.84,26.87c0.91,2.76,3.43,4.67,6.34,4.8 c0.1,0.01,0.21,0.01,0.31,0.01c2.78,0,5.32-1.65,6.43-4.23l38-88.07C468.51,51.19,467.93,48.13,465.9,46.1z M423.83,119.4 l-6.62-20.15c-0.01-0.03-0.03-0.07-0.04-0.11c-0.07-0.19-0.14-0.37-0.23-0.56c-0.02-0.06-0.05-0.12-0.08-0.19 c-0.09-0.17-0.18-0.34-0.28-0.51c-0.03-0.06-0.07-0.12-0.1-0.17c-0.11-0.17-0.23-0.34-0.35-0.5c-0.04-0.05-0.07-0.09-0.1-0.14 c-0.16-0.2-0.33-0.39-0.52-0.58c-0.19-0.18-0.38-0.36-0.58-0.52c-0.05-0.03-0.1-0.07-0.15-0.11c-0.16-0.12-0.32-0.23-0.48-0.33 c-0.06-0.04-0.13-0.08-0.19-0.12c-0.16-0.09-0.33-0.18-0.49-0.26c-0.07-0.04-0.14-0.07-0.21-0.1c-0.18-0.08-0.35-0.15-0.53-0.21 c-0.05-0.01-0.09-0.04-0.13-0.05l-20.15-6.62l54.94-23.71L423.83,119.4z"
+                        ></path>
+                      </g>
+                    </g>
+                  </g></svg
+              ></span>
+              © 2023 —
+              <a
+                href="https://instagram.com/mohd.bilal__?igshid=MzRlODBiNWFlZA=="
+                class="text-gray-600 ml-1"
+                rel="noopener noreferrer"
+                target="_blank"
+                >@mohd.bilal__</a
+              >
             </p>
-            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-              <a class="ml-3 text-gray-500 transition-colors duration-200 ease-in-out hover:text-blue-500">
-                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            <span
+              class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+            >
+              <a
+                class="ml-3 text-gray-500 transition-colors duration-200 ease-in-out hover:text-blue-500"
+              >
+                <svg
+                  fill="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                  ></path>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-500 transition-colors duration-200 ease-in-out hover:text-insta" href="https://instagram.com/mohd.bilal__?igshid=MzRlODBiNWFlZA==">
-                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <a
+                class="ml-3 text-gray-500 transition-colors duration-200 ease-in-out hover:text-insta"
+                href="https://instagram.com/mohd.bilal__?igshid=MzRlODBiNWFlZA=="
+              >
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  <path
+                    d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+                  ></path>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-500 transition-colors duration-200 ease-in-out hover:text-lnkin " href="https://www.linkedin.com/in/mohd--bilal--">
-                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <a
+                class="ml-3 text-gray-500 transition-colors duration-200 ease-in-out hover:text-lnkin"
+                href="https://www.linkedin.com/in/mohd--bilal--"
+              >
+                <svg
+                  fill="currentColor"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="0"
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="none"
+                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
                   <circle cx="4" cy="4" r="2" stroke="none"></circle>
                 </svg>
               </a>
@@ -568,7 +1093,7 @@
           </div>
         </footer>
       </div>
-    </div>   
+    </div>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="./src/animationsHQ.js"></script>
     <script>
